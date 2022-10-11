@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+string binaryNumber;
+    cin>>binaryNumber;
+    cout << stoi(binaryNumber, 0, 2);
+    return 0;
+
+// The first criterion is the string that needs to be converted.
+// Next, we’ll need to specify the identifier for the starting position of the number within the string that needs to be parsed.
+// int base defines the numerical base for the string. As examples, we have 2 for binary, 16 for hexadecimal, and 10 for base 10.
+// Stoi function will directly convert binary strings to decimal numbers.
+}
